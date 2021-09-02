@@ -30,6 +30,9 @@ background-color: lightgrey;
     text-align: center;    
 }
 
+#container{
+    justify-content: center
+}
 
 .buttons{
     border: 0;
