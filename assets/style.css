@@ -18,8 +18,12 @@ background-color: lightgrey;
     padding-top: 10px;
 }
 
+
 .intro {
-    text-align: center;      
+    text-align: center;   
+    font-size: 175%; 
+    border-bottom: solid 4px black;   
+    border-top: solid 4px black; 
 }
 
 #choosing{
@@ -40,4 +44,4 @@ background-color: lightgrey;
     background-color: green;
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
-    }
+}
