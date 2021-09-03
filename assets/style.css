@@ -31,7 +31,8 @@ background-color: lightgrey;
 }
 
 #container{
-    justify-content: center
+    display: flex;
+    justify-content: center;    
 }
 
 .buttons{
