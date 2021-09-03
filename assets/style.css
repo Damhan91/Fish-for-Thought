@@ -35,7 +35,8 @@ background-color: lightgrey;
     justify-content: center;    
 }
 
-.buttons{
+.button1, .button2, .button3, .button4 {
+    cursor: pointer;
     border: 0;
     line-height: 3;
     margin: 40px;
