@@ -36,6 +36,8 @@ background-color: lightgrey;
 }
 
 #button1, #button2, #button3, #button4 {
+    display: flex;
+    justify-content: center;   
     cursor: pointer;
     border: 0;
     line-height: 3;
@@ -56,6 +58,10 @@ background-color: lightgrey;
     transition-duration: 0.5s;
 }
 
+#button1:active, #button2:active, #button3:active, #button4:active {
+    box-shadow: box-shadow
+    7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(30px);}
 #imagehere {
     text-align: center;
 }
