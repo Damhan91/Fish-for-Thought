@@ -61,7 +61,13 @@ background-color: lightgrey;
 #button1:active, #button2:active, #button3:active, #button4:active {
     box-shadow: box-shadow
     7px 6px 28px 1px rgba(0, 0, 0, 0.24);
-    transform: translateY(30px);}
+    transform: translateY(30px);
+}
+
+#texthere{
+    text-align: center;
+}
+
 #imagehere {
     text-align: center;
 }

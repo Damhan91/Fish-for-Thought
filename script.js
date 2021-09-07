@@ -1,8 +1,13 @@
 document.addEventListener("click", button1);
 
-function button1() {    
-  document.getElementById("button1").onclick=function() {
-  document.getElementById("imagehere").innerHTML= "1 Betta Fish";
+function button1() {  
+document.getElementById("button1").onclick=function() {
+let down = document.getElementById('texthere');
+down.innerHTML = "1 Betta Fish";
+let img = document.createElement('img');
+  img.src = 
+  'https://cf.ltkcdn.net/small-pets/images/std-xs/249481-340x219-do-betta-fish-need-light.jpg';
+  document.getElementById('imagehere').appendChild(img);  
 ;}}
 
 
