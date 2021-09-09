@@ -3,11 +3,10 @@ document.addEventListener("click", button1);
 function button1() {  
 document.getElementById("button1").onclick=function() {
 let down = document.getElementById('texthere');
-down.innerHTML = "1 Betta Fish";
-let img = document.createElement('img');
-  img.src = 
-  'https://cf.ltkcdn.net/small-pets/images/std-xs/249481-340x219-do-betta-fish-need-light.jpg';
-  document.getElementById('imagehere').appendChild(img);  
+down.innerHTML = "<h3>1 Betta Fish</h3>";
+document.getElementById('imagehere').innerHTML = `<img alt="betta fish" src="https://cf.ltkcdn.net/small-pets/images/std-xs/249481-340x219-do-betta-fish-need-light.jpg"></img>`
+document.getElementById('videohere').innerHTML = `<iframe width="500" height="315" src="https://www.youtube.com/embed/-rA_EPvRTao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+
 ;}}
 
 
