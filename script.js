@@ -16,7 +16,12 @@ document.addEventListener("click", button2);
 
 function button2() {    
   document.getElementById("button2").onclick=function() {
-  document.getElementById("imagehere").innerHTML= "1 Honey Gourami, 2 Panda corydoras";
+    let down = document.getElementById('texthere');
+    down.innerHTML = "<h3>1 Honey Gourami/h3>";
+    let down = document.getElementById('texthere');
+    down.innerHTML = "<h3>4 Panda Corydoras</h3>";
+
+    
 ;}}
 
 document.addEventListener("click", button3);
