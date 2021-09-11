@@ -17,7 +17,7 @@ function button2() {
   document.getElementById("button2").onclick=function() {
     let down2 = document.getElementById('texthere');
     down2.innerHTML = "<h3>1 Honey Gourami</h3>";
-    document.getElementById('imagehere').innerHTML = `<img alt ="Honey Gourami" src="assets/Images/Honeygourami.jpg"></img>`
+    document.getElementById('imagehere').innerHTML = `<img alt ="Honey Gourami" src="assets/Images/Honeygourami.jpg"></img><img alt ="Panda Corydora" src="assets/Images/pandacory.jpg"></img>`
     let videotext = document.getElementById('videotext');
 videotext.innerHTML = "<h3>Care Guides</h3>";
 document.getElementById('videohere').innerHTML = `<iframe width="500" height="315" src="https://www.youtube.com/embed/92mMOEKPkk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
