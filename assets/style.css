@@ -64,12 +64,3 @@ background-color: lightgrey;
 #imagehere, #videohere {
     text-align: center;
 }
-
-#flex {
-    display: flex;
-    justify-content: center;
-    border: solid 1px black;    
-    flex: 1;
-    margin: 1em;
-    box-shadow: 0px 0px 10px 0px;    
-}

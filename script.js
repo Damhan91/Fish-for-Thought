@@ -4,10 +4,10 @@ function button1() {
 document.getElementById("button1").onclick=function() {
 let down = document.getElementById('texthere');
 down.innerHTML = "<h3>1 Betta Fish</h3>";
-document.getElementById('imagehere').innerHTML = `<img alt ="betta fish" src="https://cf.ltkcdn.net/small-pets/images/std-xs/249481-340x219-do-betta-fish-need-light.jpg"></img>`
+document.getElementById('imagehere').innerHTML = `<img width ="350" height="300" alt ="betta fish" src="assets/Images/betta-fish.jpg"></img>`
 let videotext = document.getElementById('videotext');
 videotext.innerHTML = "<h3>Care Guides</h3>";
-document.getElementById('videohere').innerHTML = `<iframe width ="500" height="315" src="https://www.youtube.com/embed/-rA_EPvRTao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+document.getElementById('videohere').innerHTML = `<iframe width ="500" height="300" src="https://www.youtube.com/embed/-rA_EPvRTao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 ;}}
 
 
@@ -17,10 +17,10 @@ function button2() {
   document.getElementById("button2").onclick=function() {
     let down2 = document.getElementById('texthere');
     down2.innerHTML = "<h3>1 Honey Gourami</h3>";
-    document.getElementById('imagehere').innerHTML = `<img alt ="Honey Gourami" src="assets/Images/Honeygourami.jpg"></img><img alt ="Panda Corydora" src="assets/Images/pandacory.jpg"></img>`
+    document.getElementById('imagehere').innerHTML = `<img width ="350" height="300" alt ="Honey Gourami" src="assets/Images/Honeygourami1.jpg"></img><img width ="350" height="300" alt ="Panda Corydora" src="assets/Images/pandacory.jpg"></img>`
     let videotext = document.getElementById('videotext');
 videotext.innerHTML = "<h3>Care Guides</h3>";
-document.getElementById('videohere').innerHTML = `<iframe width="500" height="315" src="https://www.youtube.com/embed/92mMOEKPkk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+document.getElementById('videohere').innerHTML = `<iframe width="500" height="300" src="https://www.youtube.com/embed/92mMOEKPkk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="500" height="300" src="https://www.youtube.com/embed/XwGqthbAv2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 
 ;}}
 
@@ -28,12 +28,22 @@ document.addEventListener("click", button3);
 
 function button3() {    
   document.getElementById("button3").onclick=function() {
-  document.getElementById("imagehere").innerHTML= "1 Angelfish, 5 Neon Tetras, 5 Brone corydoras";
+    let down2 = document.getElementById('texthere');
+    down2.innerHTML = "<h3>1 Honey Gourami</h3>";
+    document.getElementById('imagehere').innerHTML = `<img width ="350" height="300" alt ="Angel Fish" src="assets/Images/Angelfish.jpg"></img><img width ="350" height="300" alt ="Neon tetra" src="assets/Images/Neon Tetra.jpg"></img><img width ="350" height="300" alt ="Bronze Corydora" src="assets/Images/Bronze corydors.jpg"></img>`
+    let videotext = document.getElementById('videotext');
+videotext.innerHTML = "<h3>Care Guides</h3>";
+document.getElementById('videohere').innerHTML = `<iframe width="500" height="300" src="https://www.youtube.com/embed/if6YMn54f68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="500" height="300" src="https://www.youtube.com/embed/Ocy5EtjprNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="500" height="300" src="https://www.youtube.com/embed/ZK7dJa-iXdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 ;}}
 
 document.addEventListener("click", button4);
 
 function button4() {    
   document.getElementById("button4").onclick=function() {
-  document.getElementById("imagehere").innerHTML= "2 Angelfish, 8 Rummy Tetras, 6 Juli corydoras, 1 Hillstream loach";
+    let down2 = document.getElementById('texthere');
+    down2.innerHTML = "<h3>1 Honey Gourami</h3>";
+    document.getElementById('imagehere').innerHTML = `<img width ="350" height="300" alt ="Pearl Gourami" src="assets/Images/Pearl Gourami.jpg"></img><img width ="350" height="300" alt ="Rummy Nose Tetra" src="assets/Images/Rummy Nose tetra.jpg"></img><img width ="350" height="300" alt ="Julii Corydora" src="assets/Images/Julii corydoras.jpg"></img><img width ="350" height="300" alt ="Hillstream Loach" src="assets/Images/Hillstream Loach.jpg"></img>`
+    let videotext = document.getElementById('videotext');
+videotext.innerHTML = "<h3>Care Guides</h3>";
+document.getElementById('videohere').innerHTML = `<iframe width="500" height="300" src="https://www.youtube.com/embed/if6YMn54f68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="500" height="300" src="https://www.youtube.com/embed/Ocy5EtjprNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="500" height="300" src="https://www.youtube.com/embed/ZK7dJa-iXdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 ;}}
