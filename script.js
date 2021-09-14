@@ -3,7 +3,7 @@ document.addEventListener("click", button1);
 function button1() {  
 document.getElementById("button1").onclick=function() {
 let down = document.getElementById('texthere');
-down.innerHTML = "<h3>1 Betta Fish</h3>";
+down.innerHTML = "<p>1 Honey Gourami</p>";
 document.getElementById('imagehere').innerHTML = `<img width ="350" height="300" alt ="betta fish" src="assets/Images/betta-fish.jpg"></img>`
 let videotext = document.getElementById('videotext');
 videotext.innerHTML = "<h3>Care Guides</h3>";
@@ -16,7 +16,7 @@ document.addEventListener("click", button2);
 function button2() {    
   document.getElementById("button2").onclick=function() {
     let down2 = document.getElementById('texthere');
-    down2.innerHTML = "<h3>1 Honey Gourami</h3>";
+    down2.innerHTML = "<p>1 Honey Gourami</p>";
     document.getElementById('imagehere').innerHTML = `<img width ="350" height="300" alt ="Honey Gourami" src="assets/Images/Honeygourami1.jpg"></img><img width ="350" height="300" alt ="Panda Corydora" src="assets/Images/pandacory.jpg"></img>`
     let videotext = document.getElementById('videotext');
 videotext.innerHTML = "<h3>Care Guides</h3>";
@@ -29,7 +29,7 @@ document.addEventListener("click", button3);
 function button3() {    
   document.getElementById("button3").onclick=function() {
     let down2 = document.getElementById('texthere');
-    down2.innerHTML = "<h3>1 Honey Gourami</h3>";
+    down2.innerHTML = "<p>1 Honey Gourami</p>";
     document.getElementById('imagehere').innerHTML = `<img width ="350" height="300" alt ="Angel Fish" src="assets/Images/Angelfish.jpg"></img><img width ="350" height="300" alt ="Neon tetra" src="assets/Images/Neon Tetra.jpg"></img><img width ="350" height="300" alt ="Bronze Corydora" src="assets/Images/Bronze corydors.jpg"></img>`
     let videotext = document.getElementById('videotext');
 videotext.innerHTML = "<h3>Care Guides</h3>";
@@ -41,7 +41,7 @@ document.addEventListener("click", button4);
 function button4() {    
   document.getElementById("button4").onclick=function() {
     let down2 = document.getElementById('texthere');
-    down2.innerHTML = "<h3>1 Honey Gourami</h3>";
+    down2.innerHTML = "<p>1 Honey Gourami</p>";
     document.getElementById('imagehere').innerHTML = `<img width ="350" height="300" alt ="Pearl Gourami" src="assets/Images/Pearl Gourami.jpg"></img><img width ="350" height="300" alt ="Rummy Nose Tetra" src="assets/Images/Rummy Nose tetra.jpg"></img><img width ="350" height="300" alt ="kuhli-loach" src="assets/Images/kuhli-loach.jpg"></img><img width ="350" height="300" alt ="Hillstream Lo" src="assets/Images/Hillstream Loach.jpg"></img>`
     let videotext = document.getElementById('videotext');
 videotext.innerHTML = "<h3>Care Guides</h3>";

@@ -28,6 +28,9 @@ background-color: lightgrey;
 
 #choosing {
     text-align: center;
+    color: green;
+    font-size: 300%;  
+    padding-top: 20px;   
 }
 
 #container {
@@ -61,8 +64,14 @@ background-color: lightgrey;
     transform: translateY(30px);
 }
 
+h3 {
+    color: green;
+    font-size: 300%;
+}
+
 #texthere, #videotext {
     text-align: center;
+    
 }
 
 #imagehere, #videohere {
