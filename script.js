@@ -100,7 +100,7 @@ function button4() {
     <td>8</td>
     </tr>
     <tr>
-    <td>Kuli Loach</td>
+    <td>Kuhli Loach</td>
     <td>3</td>
     </tr>
     <tr>
