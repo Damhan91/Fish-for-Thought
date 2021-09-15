@@ -66,8 +66,17 @@ background-color: lightgrey;
 
 h3 {
     color: green;
-    font-size: 300%;
+   font-size: 300%;
 }
+
+table, th, td {
+    border-style:solid;
+    color: green;
+    font-size: 125%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 #texthere, #videotext {
     text-align: center;
