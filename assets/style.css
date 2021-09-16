@@ -86,3 +86,10 @@ table, th, td {
 #imagehere, #videohere {
     text-align: center;
 }
+
+@media screen and (max-width: 450px) {
+
+    p{  
+        font-size: 65%;
+    }
+  }
