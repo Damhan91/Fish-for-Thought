@@ -6,7 +6,7 @@ Fish for thought is a webpage that generates images and video care guides of typ
 
 ### Header
 Featured at the toip of the webpage is the title of the webpage itself. Below the header there is a small introduction to the purpose of the webpage and desctribes what the user can expect.
-[Header image](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/intro2.JPG)
+[Header image](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/Intro2.JPG)
 
 ### Existing Features
 
