@@ -64,6 +64,10 @@ background-color: lightgrey;
     transform: translateY(30px);
 }
 
+#button1:focus, #button2:focus, #button3:focus, #button4:focus {
+    background: blue;
+}
+
 h3 {
     color: green;
    font-size: 300%;
