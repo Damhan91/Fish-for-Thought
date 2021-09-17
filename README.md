@@ -4,7 +4,8 @@ Fish for thought is a webpage that generates images and video care guides of typ
 
 ### Existing Features
 
-
+## Header
+Featured at the toip of the webpage is the title of the webpage itself. Below the header there is a small introduction to the purpose of the webpage and desctribes what the user can expect.
 
 ### Existing Features
 
