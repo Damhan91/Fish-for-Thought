@@ -22,7 +22,7 @@ Featured at the toip of the webpage is the title of the webpage itself. Below th
 - I can confirm that my website is repsonsive and works on multiple devices, which has been tested using the Devtools.
 
 ### Bugs
-  - When looking at the website on an Ipad, the Images for the Cryptocoryne and Echinodorus Red overlap their flexbox container. This only happens on the Ipad format.
+  -
 
 ### Validator Testing 
 
@@ -42,5 +42,5 @@ Featured at the toip of the webpage is the title of the webpage itself. Below th
  - Link to Keeping Fish Simple can be found [Here](https://damhan91.github.io/Keeping-Fish-Simple/)
 
 ## Content
- - All the imagesd were taken from Google Images
+ - All the imagesd were taken from Google Images and the care video have been taken from Youtube.
  
