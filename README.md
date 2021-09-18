@@ -37,7 +37,7 @@ When the user clicks one of the buttons, the button changes color to show which 
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdamhan91.github.io%2FKeeping-Fish-Simple%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - Accessibility
   - I can confrim that all the fonts ands colors that are used throughout this website are easy to read and accessible, this is shown by using the lighthouse in Devtools
-![Accessibility](https://github.com/Damhan91/Keeping-Fish-Simple/blob/main/assets/images/Lighthouse.JPG)
+![Accessibility](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/Lighthouse%20project2.JPG)
 
 ## Deployment
  - Log in [Github](https://github.com/)
