@@ -10,8 +10,13 @@ Featured at the toip of the webpage is the title of the webpage itself. Below th
 
 ### Existing Features
 
+### User Choice
+The user have 4 options. 5.5, 10, 20 and a 40 gallon tank, these options are the most common tanks when starting out.
+![choice image]
 
-
+### Button Results
+When the user clicks one of the buttons, the button changes color to show which button the user has choosen and it shows the type of fish, quantity and a car video for each fish.
+![Result button]
 
 
 
