@@ -1,5 +1,5 @@
 # Fish for Thought
-Fish for thought is a webpage that generates images and video care guides of types of fish that you can keep in a certain tank. When the user arrives onto the webpage, the user is meet with 4 different otion. 5.5, 10, 20 and a 40 gallon tank (these are the most common tanks when starting out). When a user decides which tank they would like to choose, the user will click on a certain button, which it will display and table of information, and image of the type of fish that can be keept in that tank and also a video care guide to educate the user more about that type of fish.
+Fish for thought is a webpage that generates images and video care guides of types of fish that you can keep in a certain tank. When the user arrives onto the webpage, the user is meet with 4 different otion. 5.5, 10, 20 and a 40 gallon tank (these are the most common tanks when starting out). When a user decides which tank they would like to choose, the user will click on a certain button, which it will display and table of information, and image of the type of fish that can be keept in that tank and also a video care guide to educate the user more about that type of fish. Each button has different images, care videos and table contents.
 ![Responsive image](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/Project2.JPG)
 
 ### Existing Features
@@ -10,8 +10,13 @@ Featured at the toip of the webpage is the title of the webpage itself. Below th
 
 ### Existing Features
 
+### User Choice
+The user have 4 options. 5.5, 10, 20 and a 40 gallon tank, these options are the most common tanks when starting out.
+![choice image](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/Choice.JPG)
 
-
+### Button Results
+When the user clicks one of the buttons, the button changes color to show which button the user has choosen and it shows the type of fish, quantity and a car video for each fish.
+![Result button](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/Button%20Result.JPG)
 
 
 
@@ -32,7 +37,7 @@ Featured at the toip of the webpage is the title of the webpage itself. Below th
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdamhan91.github.io%2FKeeping-Fish-Simple%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - Accessibility
   - I can confrim that all the fonts ands colors that are used throughout this website are easy to read and accessible, this is shown by using the lighthouse in Devtools
-![Accessibility](https://github.com/Damhan91/Keeping-Fish-Simple/blob/main/assets/images/Lighthouse.JPG)
+![Accessibility](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/Lighthouse%20project2.JPG)
 
 ## Deployment
  - Log in [Github](https://github.com/)
