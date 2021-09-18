@@ -1,5 +1,5 @@
 # Fish for Thought
-Fish for thought is a webpage that generates images and video care guides of types of fish that you can keep in a certain tank. When the user arrives onto the webpage, the user is meet with 4 different otion. 5.5, 10, 20 and a 40 gallon tank (these are the most common tanks when starting out). When a user decides which tank they would like to choose, the user will click on a certain button, which it will display and table of information, and image of the type of fish that can be keept in that tank and also a video care guide to educate the user more about that type of fish.
+Fish for thought is a webpage that generates images and video care guides of types of fish that you can keep in a certain tank. When the user arrives onto the webpage, the user is meet with 4 different otion. 5.5, 10, 20 and a 40 gallon tank (these are the most common tanks when starting out). When a user decides which tank they would like to choose, the user will click on a certain button, which it will display and table of information, and image of the type of fish that can be keept in that tank and also a video care guide to educate the user more about that type of fish. Each button has different images, care videos and table contents.
 ![Responsive image](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/Project2.JPG)
 
 ### Existing Features
