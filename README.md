@@ -47,5 +47,5 @@ When the user clicks one of the buttons, the button changes color to show which 
  - Link to Keeping Fish Simple can be found [Here]
 
 ## Content
- - All the images were taken from Google Images and the care video have been taken from Youtube.
+ - All the images were taken from Google Images and the care videos have been taken from Youtube.
  
