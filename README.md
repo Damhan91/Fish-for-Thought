@@ -32,19 +32,19 @@ When the user clicks one of the buttons, the button changes color to show which 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdamhan91.github.io%2FKeeping-Fish-Simple%2F)
+  - No errors were returned when passing through the official  [W3C validator]
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdamhan91.github.io%2FKeeping-Fish-Simple%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official [(Jigsaw) validator]
 - Accessibility
   - I can confrim that all the fonts ands colors that are used throughout this website are easy to read and accessible, this is shown by using the lighthouse in Devtools
 ![Accessibility](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/Lighthouse%20project2.JPG)
 
 ## Deployment
  - Log in [Github](https://github.com/)
- - Then access the Github respository for the project (https://github.com/Damhan91/Keeping-Fish-Simple)
+ - Then access the Github respository for the project 
  - Click on settings and go down to the "Github Pages"
  - Select "Branch: Main" from the menu. This then genertates a link for the Website
- - Link to Keeping Fish Simple can be found [Here](https://damhan91.github.io/Keeping-Fish-Simple/)
+ - Link to Keeping Fish Simple can be found [Here]
 
 ## Content
  - All the imagesd were taken from Google Images and the care video have been taken from Youtube.
