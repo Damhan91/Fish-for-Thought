@@ -21,7 +21,6 @@ function button1() {
   };
 }
 
-
 document.addEventListener("click", button2);
 
 function button2() {
