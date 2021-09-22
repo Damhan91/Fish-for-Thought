@@ -18,6 +18,17 @@ function button1() {
     videotext.innerHTML = "<h3>Care Guides</h3>";
     document.getElementById('videohere').innerHTML = `<iframe width ="350" height="300" src="https://www.youtube.com/embed/-rA_EPvRTao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
       ;
+    let shoptext = document.getElementById('shoptext');
+    shoptext.innerHTML = "<h3>Shopping List</h3>";
+    let btn = document.createElement("button");
+    btn.innerHTML = "Tank";
+    document.body.appendChild(btn);    
+    let btn1 = document.createElement("button");
+    btn1.innerHTML = "Filter";
+    document.body.appendChild(btn1);
+    let btn2 = document.createElement("button");
+    btn2.innerHTML = "Heater";
+    document.body.appendChild(btn2);
   };
 }
 
