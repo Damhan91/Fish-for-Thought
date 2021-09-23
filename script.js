@@ -2,8 +2,8 @@ document.addEventListener("click", button1);
 
 function button1() {
   document.getElementById("button1").onclick = function () {
-    let down = document.getElementById('texthere');
-    down.innerHTML = `<table>
+    let text = document.getElementById('texthere');
+    text.innerHTML = `<table>
   <tr>
     <th>Fish Type</th>
     <th>Quantity</th>
@@ -18,17 +18,6 @@ function button1() {
     videotext.innerHTML = "<h3>Care Guides</h3>";
     document.getElementById('videohere').innerHTML = `<iframe width ="350" height="300" src="https://www.youtube.com/embed/-rA_EPvRTao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
       ;
-    let shoptext = document.getElementById('shoptext');
-    shoptext.innerHTML = "<h3>Shopping List</h3>";
-    let btn = document.createElement("button");
-    btn.innerHTML = "Tank";
-    document.body.appendChild(btn);    
-    let btn1 = document.createElement("button");
-    btn1.innerHTML = "Filter";
-    document.body.appendChild(btn1);
-    let btn2 = document.createElement("button");
-    btn2.innerHTML = "Heater";
-    document.body.appendChild(btn2);
   };
 }
 
@@ -36,8 +25,8 @@ document.addEventListener("click", button2);
 
 function button2() {
   document.getElementById("button2").onclick = function () {
-    let down2 = document.getElementById('texthere');
-    down2.innerHTML = `<table>
+    let text2 = document.getElementById('texthere');
+    text2.innerHTML = `<table>
     <tr>
       <th>Fish Type (From left to right)</th>
       <th>Quantity</th>
@@ -64,8 +53,8 @@ document.addEventListener("click", button3);
 
 function button3() {
   document.getElementById("button3").onclick = function () {
-    let down3 = document.getElementById('texthere');
-    down3.innerHTML = `<table>
+    let text3 = document.getElementById('texthere');
+    text3.innerHTML = `<table>
     <tr>
       <th>Fish Type (From left to right)</th>
       <th>Quantity</th>
@@ -95,8 +84,8 @@ document.addEventListener("click", button4);
 
 function button4() {
   document.getElementById("button4").onclick = function () {
-    let down4 = document.getElementById('texthere');
-    down4.innerHTML = `<table>
+    let text4 = document.getElementById('texthere');
+    text4.innerHTML = `<table>
     <tr>
       <th>Fish Type (From left to right)</th>
       <th>Quantity</th>
