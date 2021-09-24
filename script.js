@@ -17,7 +17,22 @@ function button1() {
     let videotext = document.getElementById('videotext');
     videotext.innerHTML = "<h3>Care Guides</h3>";
     document.getElementById('videohere').innerHTML = `<iframe width ="350" height="300" src="https://www.youtube.com/embed/-rA_EPvRTao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
-      ;
+    let shop= document.getElementById('Shopping');
+    shop.innerHTML = "<h3>Shopping List</h3>";
+    let list = document.getElementById("Shopping List")
+    list.innerHTML = `<table>
+    <tr>
+    <th>Tank</th>
+    <th>Heater</th>
+    <th>Filter</th>
+  </tr>
+  <tr>
+    <td><a href="https://amzn.to/3i5DYuz">Tank</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+</table>`;
+    ;
   };
 }
 
