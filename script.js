@@ -58,9 +58,9 @@ function button2() {
     let list = document.getElementById("Shopping List")
     list.innerHTML = `<table>
   <tr>
-    <td><a href="https://amzn.to/3i5DYuz">Tank</td>
-    <td><a href="https://amzn.to/3u9zqs7">Heater</td>
-    <td><a href="https://amzn.to/3AHaGcU">Filter</td>
+    <td><a href="https://amzn.to/3AHojsC">Tank</td>
+    <td><a href="https://amzn.to/3zDPuU6">Heater</td>
+    <td><a href="https://amzn.to/3AFGdfv">Filter</td>
   </tr>
 </table>`;
       ;
@@ -98,9 +98,9 @@ function button3() {
     let list = document.getElementById("Shopping List")
     list.innerHTML = `<table>
   <tr>
-    <td><a href="https://amzn.to/3i5DYuz">Tank</td>
-    <td><a href="https://amzn.to/3u9zqs7">Heater</td>
-    <td><a href="https://amzn.to/3AHaGcU">Filter</td>
+    <td><a href="https://amzn.to/3CMiFGy">Tank</td>
+    <td><a href="https://amzn.to/3i6VmiB">Heater</td>
+    <td><a href="https://amzn.to/3EPcpiN">Filter</td>
   </tr>
 </table>`;
       ;
@@ -142,9 +142,9 @@ function button4() {
     let list = document.getElementById("Shopping List")
     list.innerHTML = `<table>
   <tr>
-    <td><a href="https://amzn.to/3i5DYuz">Tank</td>
-    <td><a href="https://amzn.to/3u9zqs7">Heater</td>
-    <td><a href="https://amzn.to/3AHaGcU">Filter</td>
+    <td><a href="https://amzn.to/2XX8n7x">Tank</td>
+    <td><a href="https://amzn.to/3lPxv80">Heater</td>
+    <td><a href="https://amzn.to/3AEWgu5">Filter</td>
   </tr>
 </table>`;
 
