@@ -17,7 +17,7 @@ function button1() {
     let videotext = document.getElementById('videotext');
     videotext.innerHTML = "<h3>Care Guides</h3>";
     document.getElementById('videohere').innerHTML = `<iframe width ="350" height="300" src="https://www.youtube.com/embed/-rA_EPvRTao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
-    let shop= document.getElementById('Shopping');
+    let shop = document.getElementById('Shopping');
     shop.innerHTML = "<h3>Shopping List</h3>";
     let list = document.getElementById("Shopping List")
     list.innerHTML = `<table>
@@ -28,8 +28,8 @@ function button1() {
   </tr>
   <tr>
     <td><a href="https://amzn.to/3i5DYuz">Tank</td>
-    <td>1</td>
-    <td>1</td>
+    <td><a href="https://amzn.to/3u9zqs7">Heater</td>
+    <td><a href="https://amzn.to/3AHaGcU">Filter</td>
   </tr>
 </table>`;
     ;
@@ -59,7 +59,20 @@ function button2() {
     let videotext = document.getElementById('videotext');
     videotext.innerHTML = "<h3>Care Guides</h3>";
     document.getElementById('videohere').innerHTML = `<iframe width="350" height="300" src="https://www.youtube.com/embed/92mMOEKPkk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="300" src="https://www.youtube.com/embed/XwGqthbAv2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
-
+    shop.innerHTML = "<h3>Shopping List</h3>";
+    let list = document.getElementById("Shopping List")
+    list.innerHTML = `<table>
+    <tr>
+    <th>Tank</th>
+    <th>Heater</th>
+    <th>Filter</th>
+  </tr>
+  <tr>
+    <td><a href="https://amzn.to/3i5DYuz">Tank</td>
+    <td><a href="https://amzn.to/3u9zqs7">Heater</td>
+    <td><a href="https://amzn.to/3AHaGcU">Filter</td>
+  </tr>
+</table>`;
       ;
   };
 }
@@ -91,6 +104,20 @@ function button3() {
     let videotext = document.getElementById('videotext');
     videotext.innerHTML = "<h3>Care Guides</h3>";
     document.getElementById('videohere').innerHTML = `<iframe width="350" height="300" src="https://www.youtube.com/embed/if6YMn54f68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="300" src="https://www.youtube.com/embed/Ocy5EtjprNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="300" src="https://www.youtube.com/embed/ZK7dJa-iXdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+    shop.innerHTML = "<h3>Shopping List</h3>";
+    let list = document.getElementById("Shopping List")
+    list.innerHTML = `<table>
+    <tr>
+    <th>Tank</th>
+    <th>Heater</th>
+    <th>Filter</th>
+  </tr>
+  <tr>
+    <td><a href="https://amzn.to/3i5DYuz">Tank</td>
+    <td><a href="https://amzn.to/3u9zqs7">Heater</td>
+    <td><a href="https://amzn.to/3AHaGcU">Filter</td>
+  </tr>
+</table>`;
       ;
   };
 }
@@ -126,6 +153,21 @@ function button4() {
     let videotext = document.getElementById('videotext');
     videotext.innerHTML = "<h3>Care Guides</h3>";
     document.getElementById('videohere').innerHTML = `<iframe width="350" height="315" src="https://www.youtube.com/embed/RsWietye1x0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="315" src="https://www.youtube.com/embed/GxiLiYb6q9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="315" src="https://www.youtube.com/embed/g1WQ7LJjVUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="315" src="https://www.youtube.com/embed/IwRenUgDvsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+    shop.innerHTML = "<h3>Shopping List</h3>";
+    let list = document.getElementById("Shopping List")
+    list.innerHTML = `<table>
+    <tr>
+    <th>Tank</th>
+    <th>Heater</th>
+    <th>Filter</th>
+  </tr>
+  <tr>
+    <td><a href="https://amzn.to/3i5DYuz">Tank</td>
+    <td><a href="https://amzn.to/3u9zqs7">Heater</td>
+    <td><a href="https://amzn.to/3AHaGcU">Filter</td>
+  </tr>
+</table>`;
+
       ;
   };
 }
