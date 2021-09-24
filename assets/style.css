@@ -94,8 +94,12 @@ table, th, td {
 }
 
 /*shop button*/
+
+#ShoppingList {
+    text-align: center;
+}
 button{
-    justify-content: center;
+    justify-content: center;    
     cursor: pointer;
     border: 0;
     line-height: 3;
