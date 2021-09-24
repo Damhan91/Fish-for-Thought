@@ -21,11 +21,6 @@ function button1() {
     shop.innerHTML = "<h3>Shopping List</h3>";
     let list = document.getElementById("Shopping List")
     list.innerHTML = `<table>
-    <tr>
-    <th>Tank</th>
-    <th>Heater</th>
-    <th>Filter</th>
-  </tr>
   <tr>
     <td><a href="https://amzn.to/3i5DYuz">Tank</td>
     <td><a href="https://amzn.to/3u9zqs7">Heater</td>
@@ -62,11 +57,6 @@ function button2() {
     shop.innerHTML = "<h3>Shopping List</h3>";
     let list = document.getElementById("Shopping List")
     list.innerHTML = `<table>
-    <tr>
-    <th>Tank</th>
-    <th>Heater</th>
-    <th>Filter</th>
-  </tr>
   <tr>
     <td><a href="https://amzn.to/3i5DYuz">Tank</td>
     <td><a href="https://amzn.to/3u9zqs7">Heater</td>
@@ -107,11 +97,6 @@ function button3() {
     shop.innerHTML = "<h3>Shopping List</h3>";
     let list = document.getElementById("Shopping List")
     list.innerHTML = `<table>
-    <tr>
-    <th>Tank</th>
-    <th>Heater</th>
-    <th>Filter</th>
-  </tr>
   <tr>
     <td><a href="https://amzn.to/3i5DYuz">Tank</td>
     <td><a href="https://amzn.to/3u9zqs7">Heater</td>
@@ -156,11 +141,6 @@ function button4() {
     shop.innerHTML = "<h3>Shopping List</h3>";
     let list = document.getElementById("Shopping List")
     list.innerHTML = `<table>
-    <tr>
-    <th>Tank</th>
-    <th>Heater</th>
-    <th>Filter</th>
-  </tr>
   <tr>
     <td><a href="https://amzn.to/3i5DYuz">Tank</td>
     <td><a href="https://amzn.to/3u9zqs7">Heater</td>

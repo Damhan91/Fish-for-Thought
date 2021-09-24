@@ -72,6 +72,7 @@ background-color: lightgrey;
 h3 {
     color: green;
    font-size: 300%;
+   text-align: center;
 }
 
 table, th, td {
