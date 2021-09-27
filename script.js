@@ -91,9 +91,9 @@ function button3() {
     document.getElementById('videohere').innerHTML = `<iframe width="350" height="300" src="https://www.youtube.com/embed/if6YMn54f68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="300" src="https://www.youtube.com/embed/Ocy5EtjprNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="300" src="https://www.youtube.com/embed/ZK7dJa-iXdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     let shop = document.getElementById('Shopping');
     shop.innerHTML = "<h3>Shopping List</h3>";
-    let list3 = document.getElementById("ShoppingList")    
+    let list3 = document.getElementById("ShoppingList")
     list3.innerHTML = `
-    <a href="https://amzn.to/3CMiFGy" target="_blank">Hello</a>
+    <a href="https://amzn.to/3CMiFGy" target="_blank">Tank</a>
     <a href="https://amzn.to/3i6VmiB" target="_blank">Heater</a>
     <a href="https://amzn.to/3EPcpiN" target="_blank">Filter</a>`;
     ;
@@ -138,6 +138,5 @@ function button4() {
     <a href="https://amzn.to/2XX8n7x" target="_blank">Tank</a>
     <a href="https://amzn.to/3lPxv80" target="_blank">Heater</a>
     <a href="https://amzn.to/3AEWgu5" target="_blank">Filter</a>`;
-    ;
   };
 }
