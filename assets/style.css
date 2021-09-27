@@ -58,11 +58,6 @@ background-color: lightgrey;
     transition-duration: 0.5s;
 }
 
-#button1:active, #button2:active, #button3:active, #button4:active {
-    box-shadow: box-shadow
-    7px 6px 28px 1px rgba(0, 0, 0, 0.24);
-    transform: translateY(30px);
-}
 
 #button1:focus, #button2:focus, #button3:focus, #button4:focus {
     background: blue;
@@ -98,6 +93,11 @@ table, th, td {
 #ShoppingList {
     text-align: center;
 }
+label{   
+    color: green;
+    font-size: 175%;
+    text-align: center;
+}
 
 section a{    
     text-decoration: none;      
@@ -119,12 +119,6 @@ section a{
 a:hover {
     color: black;
     transition-duration: 0.5s;
-}
-
-a:active {
-    box-shadow: box-shadow
-    7px 6px 28px 1px rgba(0, 0, 0, 0.24);
-    transform: translateY(30px);
 }
 
 a:focus {
