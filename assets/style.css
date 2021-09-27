@@ -98,7 +98,8 @@ table, th, td {
 #ShoppingList {
     text-align: center;
 }
-button{
+a{
+    text-decoration: none;
     justify-content: center;    
     cursor: pointer;
     border: 0;
@@ -115,18 +116,18 @@ button{
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
 
-button:hover {
+a:hover {
     color: black;
     transition-duration: 0.5s;
 }
 
-button:active {
+a:active {
     box-shadow: box-shadow
     7px 6px 28px 1px rgba(0, 0, 0, 0.24);
     transform: translateY(30px);
 }
 
-button:focus {
+a:focus {
     background: blue;
 }
 

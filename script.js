@@ -21,9 +21,9 @@ function button1() {
     shop.innerHTML = "<h3>Shopping List</h3>";
     let list = document.getElementById("ShoppingList")
     list.innerHTML = `
-    <button><a href="https://amzn.to/3i5DYuz" target="_blank">Tank</button>
-    <button><a href="https://amzn.to/3u9zqs7" target="_blank">Heater</button>
-    <button><a href="https://amzn.to/3AHaGcU" target="_blank">Filter</button>`;
+    <a href="https://amzn.to/3i5DYuz" target="_blank">Tank</a>
+    <a href="https://amzn.to/3u9zqs7" target="_blank">Heater</a>
+    <a href="https://amzn.to/3AHaGcU" target="_blank">Filter</a>`;
     ;
   }
 }
@@ -55,9 +55,9 @@ function button2() {
     shop.innerHTML = "<h3>Shopping List</h3>";
     let list2 = document.getElementById("ShoppingList")
     list2.innerHTML = `  
-    <button><a href="https://amzn.to/3AHojsC" target="_blank">Tank</button>
-    <button><a href="https://amzn.to/3zDPuU6" target="_blank">Heater</button>
-    <button><a href="https://amzn.to/3AFGdfv" target="_blank">Filter</button`;
+    <a href="https://amzn.to/3AHojsC" target="_blank">Tank</a>
+    <a href="https://amzn.to/3zDPuU6" target="_blank">Heater</a>
+    <a href="https://amzn.to/3AFGdfv" target="_blank">Filter</a>`;
     ;
   };
 }
@@ -91,11 +91,11 @@ function button3() {
     document.getElementById('videohere').innerHTML = `<iframe width="350" height="300" src="https://www.youtube.com/embed/if6YMn54f68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="300" src="https://www.youtube.com/embed/Ocy5EtjprNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="300" src="https://www.youtube.com/embed/ZK7dJa-iXdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     let shop = document.getElementById('Shopping');
     shop.innerHTML = "<h3>Shopping List</h3>";
-    let list3 = document.getElementById("ShoppingList")
+    let list3 = document.getElementById("ShoppingList")    
     list3.innerHTML = `
-    <button><a href="https://amzn.to/3CMiFGy" target="_blank">Hello</button>
-    <button><a href="https://amzn.to/3i6VmiB" target="_blank">Heater</button>
-    <button><a href="https://amzn.to/3EPcpiN" target="_blank">Filter</button>`;
+    <a href="https://amzn.to/3CMiFGy" target="_blank">Hello</a>
+    <a href="https://amzn.to/3i6VmiB" target="_blank">Heater</a>
+    <a href="https://amzn.to/3EPcpiN" target="_blank">Filter</a>`;
     ;
   };
 }
@@ -135,9 +135,9 @@ function button4() {
     shop.innerHTML = "<h3>Shopping List</h3>";
     let list4 = document.getElementById("ShoppingList")
     list4.innerHTML = `  
-    <button><a href="https://amzn.to/2XX8n7x" target="_blank">Tank</button>
-    <button><a href="https://amzn.to/3lPxv80" target="_blank">Heater</button>
-    <button><a href="https://amzn.to/3AEWgu5" target="_blank">Filter</button>`;
+    <a href="https://amzn.to/2XX8n7x" target="_blank">Tank</a>
+    <a href="https://amzn.to/3lPxv80" target="_blank">Heater</a>
+    <a href="https://amzn.to/3AEWgu5" target="_blank">Filter</a>`;
     ;
   };
 }
