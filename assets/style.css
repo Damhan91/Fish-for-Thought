@@ -98,15 +98,15 @@ table, th, td {
 #ShoppingList {
     text-align: center;
 }
-a{
-    text-decoration: none;
-    justify-content: center;    
+
+section a{    
+    text-decoration: none;      
     cursor: pointer;
     border: 0;
     line-height: 3;
     margin: 40px;
     padding: 0 20px;
-    font-size: 2rem;    
+    font-size: 3rem;    
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px 1px #000;

@@ -20,20 +20,40 @@ function button1() {
     let shop = document.getElementById('Shopping');
     shop.innerHTML = "<h3>Shopping List</h3>";
     let list = document.getElementById("ShoppingList")
-    list.innerHTML = `
-    <a href="https://amzn.to/3i5DYuz" target="_blank">Tank</a>
-    <a href="https://amzn.to/3u9zqs7" target="_blank">Heater</a>
-    <a href="https://amzn.to/3AHaGcU" target="_blank">Filter</a>`;
-    ;
+    list.innerHTML = `<label for="item">What Items do you need: </label>
+    <select id="item">
+      <option value="">--Make a choice--</option>
+      <option value="tank">Tank</option>
+      <option value="heater">Heater</option>
+      <option value="filter">Filter</option>
+    </select>`;
+
+    const select = document.querySelector('select');
+    const para = document.querySelector('section');
+
+    select.addEventListener('change', setitem);
+
+    function setitem() {
+      const choice = select.value;
+
+      if (choice === 'tank') {
+        para.innerHTML = `<a href="https://amzn.to/3i5DYuz" target="_blank">Tank</a>`;
+      } else if (choice === 'heater') {
+        para.innerHTML = '<a href="https://amzn.to/3u9zqs7" target="_blank">Heater</a>';
+      } else if (choice === 'filter') {
+        para.innerHTML = '<a href="https://amzn.to/3AHaGcU" target="_blank">Filter</a>';
+      } else {
+        para.textContent = '';
+      }
+    }
   }
-}
 
-document.addEventListener("click", button2);
+  document.addEventListener("click", button2);
 
-function button2() {
-  document.getElementById("button2").onclick = function () {
-    let text2 = document.getElementById('texthere');
-    text2.innerHTML = `<table>
+  function button2() {
+    document.getElementById("button2").onclick = function () {
+      let text2 = document.getElementById('texthere');
+      text2.innerHTML = `<table>
     <tr>
       <th>Fish Type (From left to right)</th>
       <th>Quantity</th>
@@ -47,27 +67,27 @@ function button2() {
     <td>4</td>
     </tr>
   </table>`;
-    document.getElementById('imagehere').innerHTML = `<img width ="350" height="300" alt ="Honey Gourami" src="assets/Images/Honeygourami1.jpg"></img><img width ="350" height="300" alt ="Panda Corydora" src="assets/Images/pandacory.jpg"></img>`;
-    let videotext = document.getElementById('videotext');
-    videotext.innerHTML = "<h3>Care Guides</h3>";
-    document.getElementById('videohere').innerHTML = `<iframe width="350" height="300" src="https://www.youtube.com/embed/92mMOEKPkk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="300" src="https://www.youtube.com/embed/XwGqthbAv2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
-    let shop = document.getElementById('Shopping');
-    shop.innerHTML = "<h3>Shopping List</h3>";
-    let list2 = document.getElementById("ShoppingList")
-    list2.innerHTML = `  
+      document.getElementById('imagehere').innerHTML = `<img width ="350" height="300" alt ="Honey Gourami" src="assets/Images/Honeygourami1.jpg"></img><img width ="350" height="300" alt ="Panda Corydora" src="assets/Images/pandacory.jpg"></img>`;
+      let videotext = document.getElementById('videotext');
+      videotext.innerHTML = "<h3>Care Guides</h3>";
+      document.getElementById('videohere').innerHTML = `<iframe width="350" height="300" src="https://www.youtube.com/embed/92mMOEKPkk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="300" src="https://www.youtube.com/embed/XwGqthbAv2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+      let shop = document.getElementById('Shopping');
+      shop.innerHTML = "<h3>Shopping List</h3>";
+      let list2 = document.getElementById("ShoppingList")
+      list2.innerHTML = `  
     <a href="https://amzn.to/3AHojsC" target="_blank">Tank</a>
     <a href="https://amzn.to/3zDPuU6" target="_blank">Heater</a>
     <a href="https://amzn.to/3AFGdfv" target="_blank">Filter</a>`;
-    ;
-  };
-}
+      ;
+    };
+  }
 
-document.addEventListener("click", button3);
+  document.addEventListener("click", button3);
 
-function button3() {
-  document.getElementById("button3").onclick = function () {
-    let text3 = document.getElementById('texthere');
-    text3.innerHTML = `<table>
+  function button3() {
+    document.getElementById("button3").onclick = function () {
+      let text3 = document.getElementById('texthere');
+      text3.innerHTML = `<table>
     <tr>
       <th>Fish Type (From left to right)</th>
       <th>Quantity</th>
@@ -85,27 +105,27 @@ function button3() {
     <td>6</td>
     </tr>
   </table>`;
-    document.getElementById('imagehere').innerHTML = `<img width ="350" height="300" alt ="Angel Fish" src="assets/Images/Angelfish.jpg"></img><img width ="350" height="300" alt ="Neon tetra" src="assets/Images/Neon Tetra.jpg"></img><img width ="350" height="300" alt ="Bronze Corydora" src="assets/Images/Bronze corydors.jpg"></img>`;
-    let videotext = document.getElementById('videotext');
-    videotext.innerHTML = "<h3>Care Guides</h3>";
-    document.getElementById('videohere').innerHTML = `<iframe width="350" height="300" src="https://www.youtube.com/embed/if6YMn54f68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="300" src="https://www.youtube.com/embed/Ocy5EtjprNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="300" src="https://www.youtube.com/embed/ZK7dJa-iXdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
-    let shop = document.getElementById('Shopping');
-    shop.innerHTML = "<h3>Shopping List</h3>";
-    let list3 = document.getElementById("ShoppingList")
-    list3.innerHTML = `
+      document.getElementById('imagehere').innerHTML = `<img width ="350" height="300" alt ="Angel Fish" src="assets/Images/Angelfish.jpg"></img><img width ="350" height="300" alt ="Neon tetra" src="assets/Images/Neon Tetra.jpg"></img><img width ="350" height="300" alt ="Bronze Corydora" src="assets/Images/Bronze corydors.jpg"></img>`;
+      let videotext = document.getElementById('videotext');
+      videotext.innerHTML = "<h3>Care Guides</h3>";
+      document.getElementById('videohere').innerHTML = `<iframe width="350" height="300" src="https://www.youtube.com/embed/if6YMn54f68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="300" src="https://www.youtube.com/embed/Ocy5EtjprNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="300" src="https://www.youtube.com/embed/ZK7dJa-iXdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+      let shop = document.getElementById('Shopping');
+      shop.innerHTML = "<h3>Shopping List</h3>";
+      let list3 = document.getElementById("ShoppingList")
+      list3.innerHTML = `
     <a href="https://amzn.to/3CMiFGy" target="_blank">Tank</a>
     <a href="https://amzn.to/3i6VmiB" target="_blank">Heater</a>
     <a href="https://amzn.to/3EPcpiN" target="_blank">Filter</a>`;
-    ;
-  };
-}
+      ;
+    };
+  }
 
-document.addEventListener("click", button4);
+  document.addEventListener("click", button4);
 
-function button4() {
-  document.getElementById("button4").onclick = function () {
-    let text4 = document.getElementById('texthere');
-    text4.innerHTML = `<table>
+  function button4() {
+    document.getElementById("button4").onclick = function () {
+      let text4 = document.getElementById('texthere');
+      text4.innerHTML = `<table>
     <tr>
       <th>Fish Type (From left to right)</th>
       <th>Quantity</th>
@@ -127,16 +147,17 @@ function button4() {
     <td>2</td>
     </tr>
   </table>`;
-    document.getElementById('imagehere').innerHTML = `<img width ="350" height="300" alt ="Pearl Gourami" src="assets/Images/Pearl Gourami.jpg"></img><img width ="350" height="300" alt ="Rummy Nose Tetra" src="assets/Images/Rummy Nose tetra.jpg"></img><img width ="350" height="300" alt ="kuhli-loach" src="assets/Images/kuhli-loach.jpg"></img><img width ="350" height="300" alt ="Hillstream Lo" src="assets/Images/Hillstream Loach.jpg"></img>`;
-    let videotext = document.getElementById('videotext');
-    videotext.innerHTML = "<h3>Care Guides</h3>";
-    document.getElementById('videohere').innerHTML = `<iframe width="350" height="315" src="https://www.youtube.com/embed/RsWietye1x0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="315" src="https://www.youtube.com/embed/GxiLiYb6q9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="315" src="https://www.youtube.com/embed/g1WQ7LJjVUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="315" src="https://www.youtube.com/embed/IwRenUgDvsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
-    let shop = document.getElementById('Shopping');
-    shop.innerHTML = "<h3>Shopping List</h3>";
-    let list4 = document.getElementById("ShoppingList")
-    list4.innerHTML = `  
+      document.getElementById('imagehere').innerHTML = `<img width ="350" height="300" alt ="Pearl Gourami" src="assets/Images/Pearl Gourami.jpg"></img><img width ="350" height="300" alt ="Rummy Nose Tetra" src="assets/Images/Rummy Nose tetra.jpg"></img><img width ="350" height="300" alt ="kuhli-loach" src="assets/Images/kuhli-loach.jpg"></img><img width ="350" height="300" alt ="Hillstream Lo" src="assets/Images/Hillstream Loach.jpg"></img>`;
+      let videotext = document.getElementById('videotext');
+      videotext.innerHTML = "<h3>Care Guides</h3>";
+      document.getElementById('videohere').innerHTML = `<iframe width="350" height="315" src="https://www.youtube.com/embed/RsWietye1x0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="315" src="https://www.youtube.com/embed/GxiLiYb6q9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="315" src="https://www.youtube.com/embed/g1WQ7LJjVUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe width="350" height="315" src="https://www.youtube.com/embed/IwRenUgDvsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+      let shop = document.getElementById('Shopping');
+      shop.innerHTML = "<h3>Shopping List</h3>";
+      let list4 = document.getElementById("ShoppingList")
+      list4.innerHTML = `  
     <a href="https://amzn.to/2XX8n7x" target="_blank">Tank</a>
     <a href="https://amzn.to/3lPxv80" target="_blank">Heater</a>
     <a href="https://amzn.to/3AEWgu5" target="_blank">Filter</a>`;
-  };
+    };
+  }
 }
