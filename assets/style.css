@@ -125,7 +125,9 @@ a:focus {
     background: blue;
 }
 
-
+section{
+    text-align: center;
+}
 /* responsive */
 @media screen and (max-width: 450px) {
 
