@@ -44,7 +44,7 @@ When the user clicks one of the buttons, the button changes color to show which 
  - Then access the Github respository for the project 
  - Click on settings and go down to the "Github Pages"
  - Select "Branch: Main" from the menu. This then genertates a link for the Website
- - Link to Fish for Thought can be found [Here]
+ - Link to Fish for Thought can be found [Here](https://damhan91.github.io/Fish-for-Thought/)
 
 ## Content
  - All the images were taken from Google Images and the care videos have been taken from Youtube.
