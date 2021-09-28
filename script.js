@@ -208,9 +208,9 @@ function button1() {
       const select = document.querySelector('select');
       const para = document.querySelector('section');
 
-      select.addEventListener('change', setitem);
+      select.addEventListener('change', setitem4);
 
-      function setitem() {
+      function setitem4() {
         const choice = select.value;
 
         if (choice === 'tank') {
