@@ -21,7 +21,7 @@ After the video tutorial there is a question that the user will come across, Wha
 ![Shop](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/shopping%20list.JPG)
 ![Shop](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/Tank.JPG)
 ![Shop](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/Heater.JPG)
-![Shop](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/shopping%20list.JPG)
+![Shop](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/Filter.JPG)
 
 
 
