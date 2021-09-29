@@ -39,6 +39,8 @@ After the video tutorial there is a question that the user will come across, Wha
   - No errors were returned when passing through the official  [W3C validator](https://validator.w3.org/nu/#textarea)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](http://validator.w3.org/services)
+- Javascript
+  - No errors were found when passing through the official [JSHint JavaScript Validator](https://jshint.com)
 - Accessibility
   - I can confrim that all the fonts ands colors that are used throughout this website are easy to read and accessible, this is shown by using the lighthouse in Devtools
 ![Accessibility](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/Lighthouse%20project2.JPG)
