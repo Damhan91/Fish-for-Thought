@@ -17,7 +17,8 @@ The user have 4 options. 5.5, 10, 20 and a 40 gallon tank, these options are the
 ### Button Results
 When the user clicks one of the buttons, the button changes color to show which button the user has choosen and it shows the type of fish, quantity and a car video for each fish.
 ![Result button](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/Button%20Result.JPG)
-
+After the video tutorial there is a question that the user will come across, What can we help you shop for:. This part is to help the user shop for any items that they may need, in this case they are given the option of Tank, Heater and Filter. Using an if/else statement depending on which item they choose they will be brought to a 3rd party website where they particular item is for sale. The links are different depending on which gallon size the user has initlaly chosen.
+![Shop]()
 
 
 
