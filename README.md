@@ -20,7 +20,7 @@ When the user clicks one of the buttons, the button changes color to show which 
 After the video tutorial there is a question that the user will come across, What can we help you shop for:. This part is to help the user shop for any items that they may need, in this case they are given the option of Tank, Heater and Filter. Using an if/else statement depending on which item they choose they will be brought to a 3rd party website where they particular item is for sale. The links are different depending on which gallon size the user has initlaly chosen.
 ![Shop](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/shopping%20list.JPG)
 ![Shop](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/Tank.JPG)
-![Shop](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/shopping%20list.JPG)
+![Shop](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/Heater.JPG)
 ![Shop](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/shopping%20list.JPG)
 
 
