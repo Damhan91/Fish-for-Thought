@@ -2,6 +2,19 @@
 Fish for thought is a webpage that generates images and video care guides of types of fish that you can keep in a certain tank. When the user arrives onto the webpage, the user is meet with 4 different otion. 5.5, 10, 20 and a 40 gallon tank (these are the most common tanks when starting out). When a user decides which tank they would like to choose, the user will click on a certain button, which it will display and table of information, and image of the type of fish that can be keept in that tank and also a video care guide to educate the user more about that type of fish. Each button has different images, care videos and table contents.
 ![Responsive image](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/Project2.JPG)
 
+
+### User Stories
+The website is for new hobbyist to the tropical fish keeping hobby looking for information about what they can keep and the equipment that is needed.
+
+I want to know what type of tanks are best for beginners
+I want to know what type(s) of fish can be kept in each tank
+I want to know how many fish I can keep in that tank 
+I want to know what equipment is best used for each tank
+
+As the owner
+I want users to be able to quickly see what type of fish and equipment is needed for specific tanks
+I want to be able to gain commission from purchases made on amazon when a user buys an item.
+
 ### Existing Features
 
 ### Header
@@ -33,7 +46,7 @@ After the video tutorial there is a question that the user will come across, Wha
  ![console](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/console.JPG)
 
 ### Bugs
-  -
+  - No bugs to report
 
 ### Validator Testing 
 
