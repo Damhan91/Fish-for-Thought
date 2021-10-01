@@ -44,7 +44,7 @@ function button1() {
       para.textContent = ``;
     }
   }
-};
+}
 
 document.getElementById("button2").addEventListener("click", button2);
 
@@ -97,7 +97,7 @@ function button2() {
       para.textContent = ``;
     }
   }
-};
+}
 
 
 document.getElementById("button3").addEventListener("click", button3);
@@ -155,8 +155,7 @@ function button3() {
       para.textContent = ``;
     }
   }
-
-};
+}
 
 
 document.getElementById("button4").addEventListener("click", button4);
