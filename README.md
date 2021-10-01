@@ -6,13 +6,13 @@ Fish for thought is a webpage that generates images and video care guides of typ
 ### User Stories
 The website is for new hobbyist to the tropical fish keeping hobby looking for information about what they can keep and the equipment that is needed.
 
--I want to know what type of tanks are best for beginners
--I want to know what type(s) of fish can be kept in each tank
--I want to know how many fish I can keep in that tank 
--I want to know what equipment is best used for each tank
+-I want to know what type of tanks are best for beginners.
+-I want to know what type(s) of fish can be kept in each tank.
+-I want to know how many fish I can keep in that tank.
+-I want to know what equipment is best used for each tank.
 
--As the owner
--I want users to be able to quickly see what type of fish and equipment is needed for specific tanks
+###As the owner
+-I want users to be able to quickly see what type of fish and equipment is needed for specific tanks.
 -I want to be able to gain commission from purchases made on amazon when a user buys an item.
 
 ### Existing Features
