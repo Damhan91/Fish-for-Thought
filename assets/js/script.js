@@ -31,18 +31,17 @@ function button1() {
   const para = document.querySelector('section');
 
   select.addEventListener('change', setitem);
-
   function setitem() {
     const choice = select.value;
 
     if (choice === 'tank') {
       para.innerHTML = `<a href="https://amzn.to/3i5DYuz" target="_blank">Tank</a>`;
     } else if (choice === 'heater') {
-      para.innerHTML = '<a href="https://amzn.to/3u9zqs7" target="_blank">Heater</a>';
+      para.innerHTML = `<a href="https://amzn.to/3u9zqs7" target="_blank">Heater</a>`;
     } else if (choice === 'filter') {
-      para.innerHTML = '<a href="https://amzn.to/3AHaGcU" target="_blank">Filter</a>';
+      para.innerHTML = `<a href="https://amzn.to/3AHaGcU" target="_blank">Filter</a>`;
     } else {
-      para.textContent = '';
+      para.textContent = ``;
     }
   }
 };
@@ -95,7 +94,7 @@ function button2() {
     } else if (choice === 'filter') {
       para.innerHTML = `<a href="https://amzn.to/3AFGdfv" target="_blank">Filter</a>`;
     } else {
-      para.textContent = '';
+      para.textContent = ``;
     }
   }
 };
@@ -153,7 +152,7 @@ function button3() {
     } else if (choice === 'filter') {
       para.innerHTML = `<a href="https://amzn.to/3EPcpiN" target="_blank">Filter</a>`;
     } else {
-      para.textContent = '';
+      para.textContent = ``;
     }
   }
 
@@ -216,7 +215,7 @@ function button4() {
     } else if (choice === 'filter') {
       para.innerHTML = '<a href="https://amzn.to/3CTBeZa" target="_blank">Filter</a>';
     } else {
-      para.textContent = '';
+      para.textContent = ``;
     }
   }
 }
