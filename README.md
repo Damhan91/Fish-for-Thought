@@ -29,6 +29,8 @@ After the video tutorial there is a question that the user will come across, Wha
 
 - I can confirm that my website works on multiple browsers.
 - I can confirm that my website is repsonsive and works on multiple devices, which has been tested using the Devtools.
+- The videos that appear with each button appear and play correctly with no issues
+ ![console](https://github.com/Damhan91/Fish-for-Thought/blob/main/assets/Images/console.JPG)
 
 ### Bugs
   -
